@@ -1,0 +1,162 @@
+.Login {
+  width: 100%;
+  height: 100vh;
+  padding: 0px;
+  background: -webkit-gradient(linear, left top, right top, from(#F2CA2D), color-stop(37.37%, #8C761D), color-stop(82.94%, #000000));
+  background: linear-gradient(90deg, #F2CA2D 0%, #8C761D 37.37%, #000000 82.94%);
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.Login img {
+  position: absolute;
+}
+
+.Login__img1 {
+  width: 800px;
+  top: 0%;
+  right: 5%;
+  z-index: 11;
+}
+
+.Login__img2 {
+  width: 900px;
+  top: -5%;
+  right: -5%;
+}
+
+.Login__img3 {
+  width: 900px;
+  bottom: -5%;
+  left: -5%;
+  z-index: -1;
+}
+
+.register {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 500px;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  margin-top: 90px;
+  z-index: 1111;
+}
+
+.register h4 {
+  font-family: 'Kumbh Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+
+.register__title {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 120%;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+.register .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40%;
+  margin-top: 90px;
+}
+
+.register .login__input {
+  margin-top: 30px;
+  width: 501px;
+  left: 154px;
+  top: 522px;
+  background: #FFFFFF;
+  border-radius: 61px;
+  font-size: 24px;
+  line-height: 120%;
+  color: rgba(0, 0, 0, 0.6);
+  outline: none;
+  padding: 15px 20px;
+  border: none;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+
+.register .login__input::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.register .login__input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.register .login__input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.register .login__input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.register .login__input:hover, .register .login__input:focus {
+  border: 4px solid #eb6e6e;
+}
+
+.register .login__help {
+  margin: 20px 0;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1DA1F2;
+}
+
+.register .login__help:hover {
+  text-decoration: underline;
+}
+
+.register .login__next {
+  background: #FED530;
+  border-radius: 40px;
+  border: none;
+  width: 144px;
+  padding: 10px;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 24px;
+  margin: 0 auto;
+}
+
+.register .login__next:hover {
+  opacity: 0.7;
+}
+
+.register .login__next:active {
+  opacity: 1;
+  -webkit-box-shadow: 0 0 5px #5ca2e4;
+          box-shadow: 0 0 5px #5ca2e4;
+}
+/*# sourceMappingURL=Login.css.map */

@@ -1,0 +1,206 @@
+.homepage {
+  min-height: 100vh;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  background: #2e2d2d;
+  background: -webkit-gradient(linear, left top, right top, from(#2e2d2d), color-stop(10%, #262626), color-stop(100%, #010003), to(#00d4ff));
+  background: linear-gradient(90deg, #2e2d2d 0%, #262626 10%, #010003 100%, #00d4ff 100%);
+  background: #1E1E1E;
+  color: white;
+  z-index: -1;
+  padding-bottom: 90px;
+}
+
+.playvideos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+}
+
+.playvideos__start {
+  width: 58%;
+}
+
+.playvideos .filmInfo {
+  width: 38%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 16px;
+  padding-right: 60px;
+}
+
+.playvideos .filmInfo h2 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 96px;
+}
+
+.playvideos .filmInfo__desc {
+  margin: 24px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.playvideos .filmInfo__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.playvideos .filmInfo__block h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.flex-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5px;
+}
+
+.trailer {
+  font-weight: 700;
+  margin: 25px 0;
+}
+
+.trailer h3 {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.trailer__block {
+  background: #1E1E1E;
+  width: 296px;
+  height: 136px;
+  position: relative;
+  z-index: 11111;
+}
+
+.trailer__block:hover {
+  -webkit-box-shadow: 0 0 4px white;
+          box-shadow: 0 0 4px white;
+}
+
+.trailer__block span {
+  position: absolute;
+  bottom: -25px;
+  right: 20px;
+  font-size: 32px;
+  line-height: 48px;
+}
+
+.movies-block {
+  padding-top: 40px;
+}
+
+.movies-block img {
+  width: 100%;
+  height: 100%;
+  z-index: -11;
+}
+
+.movies-block h4 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.movies-block a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: right;
+  color: #FED530;
+}
+
+.movies-block a:hover {
+  text-decoration: underline;
+}
+
+.movies-block .movies-Box {
+  margin-top: 16px;
+  width: 400px;
+  height: 560px;
+  -webkit-box-shadow: 0 0 1px white;
+          box-shadow: 0 0 1px white;
+  position: relative;
+  background: #303030;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #303030), color-stop(24%, #242424), color-stop(73%, #121212));
+  background: linear-gradient(180deg, #303030 1%, #242424 24%, #121212 73%);
+}
+
+.movies-block .movies-Box__genre {
+  position: absolute;
+  top: 26px;
+  left: 24px;
+  background: #FED530;
+  border-radius: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2E2E2E;
+  padding: 6px 18px;
+}
+
+.movies-block .movies-Box__title {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.movies-block .movies-Box__duration {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  left: 24px;
+  bottom: 90px;
+}
+
+.movies-block .movies-Box .Link__img {
+  width: 100%;
+  height: 100%;
+}
+
+.movies-block .movies-block__two {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.movies-block .movies-Box:nth-child(1) {
+  width: 830px;
+  height: 560px;
+}
+
+.movies-block .movies-Box:nth-child(6) {
+  width: 830px;
+  height: 560px;
+}
+/*# sourceMappingURL=HomePage.css.map */
